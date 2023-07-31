@@ -26,7 +26,7 @@ need to fix:
 customList()
 {
 
-	editAmmo("l96a1_upgraded_zm", 1, 999);
+	editAmmo("m14_zm", 69, 999);
 	
 	
 	level.CUSTOM_AMMO_DONE = 1;
@@ -219,14 +219,11 @@ onplayerspawned()
 		
 		CurrentClip = self GetWeaponAmmoClip( CurrentWeapon );
 		
-		self iprintln(CurrentClip);
-		
 		
 		// Primary clip
 		if(CurrentClip > MaxClip)
 		{
 			
-			self iprintln("Primary");
 			ClipRemainder = CurrentClip - MaxClip;
 			
 			self setWeaponAmmoClip(CurrentWeapon, MaxClip);
@@ -250,7 +247,6 @@ onplayerspawned()
 		CurrentStock = self GetWeaponAmmoStock( CurrentWeapon );
 		if(CurrentStock > MaxStock)
 		{
-			self iprintln("Stock");
 			StockRemainder = CurrentStock - MaxStock;
 			self setWeaponAmmoStock(CurrentWeapon, MaxStock);
 		}
