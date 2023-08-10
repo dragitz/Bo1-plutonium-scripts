@@ -2,12 +2,10 @@
 Collection of GSC scripts that I've made
 
 # How to install ?
-Unless it's specified, place them here
-``%localappdata%\Plutonium\storage\t5\scripts\sp``
+1) ``%localappdata%\Plutonium\storage\t5\scripts\sp\zom``
+2) go into a private match
+3) type ``xpartygo`` into the console
 
-or
-
-``%localappdata%\Plutonium\storage\t5\scripts\sp\zom`` is you prefer for private matches with the ``xpartygo`` trick
 
 # Got an issue to report ?
 Please provide the following information:
