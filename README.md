@@ -1,7 +1,7 @@
 # Bo1-plutonium-scripts
 Collection of GSC scripts that I've made
 
-https://dragitz.github.io/Bo1-plutonium-scripts/
+Code Explorer: https://dragitz.github.io/Bo1-plutonium-scripts/
 
 # How to install ?
 1) ``%localappdata%\Plutonium\storage\t5\scripts\sp\zom``
