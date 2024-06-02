@@ -62,7 +62,6 @@ zombie_follow_enemy()
 			if(distance(vector_goal, self.origin) < DISTANCE || distance(vector_goal, self.favoriteenemy.origin) < self.meleeAttackDist )
 			{
 				vector_goal = self.favoriteenemy.origin;
-                self.favoriteenemy IPrintLn("original");
 			}
 			
 		}
