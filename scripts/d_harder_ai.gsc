@@ -10,7 +10,7 @@ main()
 	if ( GetDvar( #"zombiemode" ) != "1" )
 		return;
 	
-	// PAP SYSTEM
+
     replaceFunc( maps\_zombiemode_spawner::zombie_follow_enemy, ::zombie_follow_enemy );
     replaceFunc( maps\_zombiemode_spawner::should_attack_player_thru_boards, ::should_attack_player_thru_boards );
 
